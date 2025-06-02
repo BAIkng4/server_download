@@ -16,6 +16,10 @@ lock = Lock()
 # Load secret from environment
 SECRET_API_KEY = os.environ.get("SECRET_API_KEY", "defaultsecret")
 
+@app.route('/')
+def main():
+    return '<h2>GROW KING SCRIPTS</h2>', 200
+    
 @app.route("/get_url", methods=["POST"])
 def generate_temp_url_multiple():
     auth = request.headers.get("Authorization")
@@ -74,3 +78,6 @@ def download_file(token):
         download_name=filename,
         mimetype="application/zip"
     )
+    
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)
