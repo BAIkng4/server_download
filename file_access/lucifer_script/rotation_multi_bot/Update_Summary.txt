@@ -1,5 +1,0 @@
-Rotation Lucifer Script Version Best 1.04.1
-Developer: Grow King Scripts
-
-[ Customizations ]
-- Support the latest login code.
