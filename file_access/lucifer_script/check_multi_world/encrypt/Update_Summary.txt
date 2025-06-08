@@ -1,0 +1,5 @@
+Check Multiple Worlds Lucifer Script Version 1.03.1
+Developer: Grow King Scripts
+
+[ Customizations ]
+- Support the latest login code.
